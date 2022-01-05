@@ -7,6 +7,10 @@ h1 {
     font-size: 280%;
     color: blue;
 }
+.content, a:link, a:visited {
+    text-align: center;
+    background-color: white;
+}
 .image {
     text-align: center;
     display: block;
@@ -15,22 +19,15 @@ h1 {
 #img1 {
     padding-right: 10%;
 }
-.footer {
+.footer1 {
     background-color: rgb(110, 110, 110);
-    text-align: center;
-    color: rgb(20, 20, 20);   
-    margin: 0;
-    position: absolute;
-
 }
-.footer, a:link, a:visited {
-        
-        color: white;
-        padding: 15px 25px;
-        text-align: center;
-        text-decoration: none;
-      }
 
-#snake {
-    text-align: center;
+.footer1, a:link, a:visited {
+        text-decoration: none;
+        background-color: rgb(110, 110, 110);
+        color: rgb(20, 20, 20);   
+        margin: 0;
+        text-align: center;
+        
 }
