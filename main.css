@@ -7,27 +7,22 @@ h1 {
     font-size: 280%;
     color: blue;
 }
-.content, a:link, a:visited {
-    text-align: center;
-    background-color: white;
-}
+
+    
 .image {
     text-align: center;
     display: block;
     block-size: 100%;
 }
+
 #img1 {
     padding-right: 10%;
 }
-.footer1 {
-    background-color: rgb(110, 110, 110);
-}
+footer, a.class1:link, a.class1:visited
+{
+color:black;
+text-decoration:none;
+background-color: rgb(110, 110, 110);
+text-align: center;
 
-.footer1, a:link, a:visited {
-        text-decoration: none;
-        background-color: rgb(110, 110, 110);
-        color: rgb(20, 20, 20);   
-        margin: 0;
-        text-align: center;
-        
 }
