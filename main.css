@@ -20,7 +20,8 @@ h1 {
     text-align: center;
     color: rgb(20, 20, 20);   
     margin: 0;
-    bottom 
+    position: absolute;
+
 }
 .footer, a:link, a:visited {
         
