@@ -1,0 +1,11 @@
+:root, [color-mode="light"] {
+    --background-color: white
+}
+
+[color-mode="dark"] {
+    --background-color: #181a1b;
+}
+
+html {
+    background-color: var(--background-color);
+}

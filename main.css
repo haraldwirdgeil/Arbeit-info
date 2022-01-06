@@ -1,14 +1,58 @@
+:root, [color-mode="light"] {
+    --background-color: white;
+    --text-color: black;
+    --text-color-secondary: blue;
+    --link-text-color: blue
+}
+[color-mode="dark"] {
+    --background-color: #181a1b;
+    --text-color: white;
+    --text-color-secondary: #7395d0;
+    --link-text-color: #8ab4f8;
+}
+
+:root[color-mode="light"] .light--hidden {
+    display: none;
+}
+:root[color-mode="dark"] .dark--hidden {
+    display: none;
+}
+
+.color-mode__btn {
+    border-radius: .375rem;
+    border-color: var(--color2);
+    border: none;
+    color: var(--color-text2);
+    background-color: transparent;
+}
+.color-mode__btn:hover {
+    background-color: var(--text-color);
+    filter: opacity(40%);
+    color: var(--background-color);
+}
+
 body {
     margin: 0.5;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
+
+/* https://stackoverflow.com/questions/11777598/font-size-relative-to-the-users-screen-resolution */
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 280%;
-    color: blue;
+    font-size: 4.5vw;
+    color: var(--text-color-secondary);
 }
 
-    
+#g1 a:link {
+    color: var(--link-text-color);
+}
+
+#g1 {
+    margin: 1rem;
+}
+
 .image {
     text-align: center;
     display: block;
@@ -18,11 +62,10 @@ h1 {
 #img1 {
     padding-right: 10%;
 }
-footer, a.class1:link, a.class1:visited
-{
+
+footer, a.class1:link, a.class1:visited {
 color:black;
 text-decoration:none;
 background-color: rgb(110, 110, 110);
 text-align: center;
-
 }

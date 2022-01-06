@@ -1,19 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" color-mode="dark">
+
 <head>
     <!--ja ich weiß das ist viel aber das muss so-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="refresh" content="1">
+    <!-- <meta http-equiv="refresh" content="1"> -->
     <meta name="viewport" content="width=++, initial-scale=1.0">
     <link href="./main.css" rel="stylesheet">
     <link rel="short icon" href="./img/hide-pain-harold-title-red -web.jpg">
-    <title>Leuben Langzeitaufgabe</title> 
+    <title>Leuben Langzeitaufgabe</title>
     <!---Bidde ne 1 ok?-->
-</head> 
+</head>
+
 <body>
     <div class="container">
         <div class="header">
+            <!--- Light mode button --->
+            <button class="color-mode__btn light--hidden" aria-label="Toggle light mode">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2em"
+                    height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"
+                    class="fill-current text-gray-200 hover:text-white h-6 w-6" aria-hidden="true">
+                    <g fill="none">
+                        <path
+                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 1 1-8 0a4 4 0 0 1 8 0z"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                    </g>
+                </svg>
+            </button>
+
+            <!--- Dark mode button --->
+            <button class="color-mode__btn dark--hidden" aria-label="Toggle dark mode">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2em"
+                    height="2em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"
+                    class="fill-current text-gray-200 hover:text-white h-6 w-6" aria-hidden="true">
+                    <g fill="none">
+                        <path
+                            d="M20.354 15.354A9 9 0 0 1 8.646 3.646A9.003 9.003 0 0 0 12 21a9.003 9.003 0 0 0 8.354-5.646z"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        </path>
+                    </g>
+                </svg>
+            </button>
             <h1 div="headline">Leuben</h1>
         </div>
         <div class="content">
@@ -24,22 +53,27 @@
                 <img src="img/Leuben2.jpg" div="img3" width="20%" height="20%">
             </div>
             <div id="g1">
-                
-                Leuben ist ein sehr altes stadtfirtl von dresden und hat eine lange Geschichte. 
-                Wenn sie mehr über leubens Geschichte wissen wollen dann schau doch mal hir vorbei <a href="./unterseiten/unterseite1.html">Leubens Geschichte</a>
+
+                Leuben ist ein sehr altes stadtfirtl von dresden und hat eine lange Geschichte.
+                Wenn sie mehr über leubens Geschichte wissen wollen dann schau doch mal hir vorbei <a
+                    href="./unterseiten/unterseite1.html">Leubens Geschichte</a>
                 <br>
                 hir kann ein Text hin <a href="./unterseiten/unterseite2.html">Link zum Taruftrücken </a>
                 <br>
-                ich weiß nicht was hir hin kann des wegen steht das hir <a href="./unterseiten/unterseite3.html">hir ist der Link zur unterseite </a>
+                ich weiß nicht was hir hin kann des wegen steht das hir <a href="./unterseiten/unterseite3.html">hir ist
+                    der Link zur unterseite </a>
                 <br>
-                digga denkst du ich weiß was hgir hin soll weil ich habe kein plan <a href="./unterseiten/unterseite4.html">das hir ist auch noch ein Link </a>
+                digga denkst du ich weiß was hgir hin soll weil ich habe kein plan <a
+                    href="./unterseiten/unterseite4.html">das hir ist auch noch ein Link </a>
                 <br>
             </div>
         </div>
-            <!--is nur als Spaß wegen Langerweile -->
+        <!--is nur als Spaß wegen Langerweile -->
     </div>
 </body>
 <footer>
     <a href="unterseiten/geschichte.html" class="class1">Copyright</a></element>
 </footer>
+<script src="js/colorMode.js"></script>
+
 </html>
