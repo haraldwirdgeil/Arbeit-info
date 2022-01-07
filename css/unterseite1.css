@@ -1,4 +1,4 @@
-:root, [color-mode="light"] {
+/* :root, [color-mode="light"] {
     --background-color: white
 }
 
@@ -8,4 +8,42 @@
 
 html {
     background-color: var(--background-color);
+} */
+:root, [color-mode="light"] {
+    --background-color: white;
+    --text-color: black;
+    --text-color-secondary: blue;
+    --link-text-color: blue
+}
+[color-mode="dark"] {
+    --background-color: #181a1b;
+    --text-color: white;
+    --text-color-secondary: #7395d0;
+    --link-text-color: #8ab4f8;
+}
+
+:root[color-mode="light"] .light--hidden {
+    display: none;
+}
+:root[color-mode="dark"] .dark--hidden {
+    display: none;
+}
+
+.color-mode__btn {
+    border-radius: .375rem;
+    border-color: var(--color2);
+    border: none;
+    color: var(--color-text2);
+    background-color: transparent;
+}
+.color-mode__btn:hover {
+    background-color: var(--text-color);
+    filter: opacity(40%);
+    color: var(--background-color);
+}
+
+body {
+    margin: 0.5;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
