@@ -38,6 +38,9 @@ body {
 }
 
 /* https://stackoverflow.com/questions/11777598/font-size-relative-to-the-users-screen-resolution */
+iframe:class1{
+    width: 100%;
+}
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
