@@ -53,7 +53,7 @@ h1 {
     margin-right: 10px;
 }
 .img2{
-    width: auto;
+    width: 20%;
     height: auto;
     float: right;
     margin-left: 10px;
@@ -64,3 +64,6 @@ h1 {
     font-size: 1.3vw;
     margin:auto;
 }  
+footer{
+    font-size: 1vw;
+}
