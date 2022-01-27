@@ -46,11 +46,17 @@ h1 {
     font-size: 4.5vw;
     color: var(--text-color-secondary);
 }
-img{
+.img1{
     width: 20%;
     height: auto;
     float: left;
     margin-right: 10px;
+}
+.img2{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-left: 10px;
 }
 .Text {
     width: 50%;
