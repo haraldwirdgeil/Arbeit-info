@@ -60,3 +60,6 @@ img{
     border:0;
     margin-right: auto;
 }
+h1, a.class1:link, a.class1:visited{
+    text-decoration: none;
+}

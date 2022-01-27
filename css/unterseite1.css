@@ -68,3 +68,6 @@ footer{
     margin-right: 10px;
     font-size: 1vw;
 }
+h1, a.class1:link, a.class1:visited{
+    text-decoration: none;
+}
